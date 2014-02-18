@@ -47,6 +47,7 @@ module Lacquer
               digest << salt
               digest << "\n"
               digest << server[:secret]
+              digest << "\n"
               digest << salt
               digest << "\n"
 
