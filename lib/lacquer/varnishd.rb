@@ -1,3 +1,5 @@
+require 'digest/md5'
+
 module Lacquer
   class Varnishd
     attr_accessor :listen, :telnet, :sbin_path, :bin_path, :storage, :working_dir, :user, :backend, :params, :use_sudo, :pid_path
